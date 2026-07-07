@@ -36,11 +36,12 @@ private void Move()
         {
             transform.position = new Vector3(nextX, transform.position.y, transform.position.z);
         }
-        
+        // Tells the animator to start the walking animation
         animator.SetBool("IsRunning", true);
     }
     else
     {
+        // Tells the animator to start the idle animation
         animator.SetBool("IsRunning", false);
     }
 }
