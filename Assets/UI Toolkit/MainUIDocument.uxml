@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ui:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ui="UnityEngine.UIElements"
-    xmlns:uie="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="TopElement" style="flex-grow: 1; flex-direction: column; align-items: flex-start; align-content: auto; font-size: 24px; flex-basis: auto;">
+        <ui:Label text="Animals Remaining: 0" name="AnimalsRemaining" style="color: rgb(250, 250, 250); padding-bottom: 0;"/>
+        <ui:Label text="Score: 0" name="Score" style="color: rgb(255, 255, 255); font-size: 24px;"/>
+    </ui:VisualElement>
 </ui:UXML>
